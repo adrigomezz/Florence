@@ -1,0 +1,22 @@
+# .gitignore
+
+# Node modules
+**/node_modules/
+
+# Dotenv config
+*.env
+
+# Logs
+*.log
+
+# Build files
+dist/
+build/
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Mac and system files
+.DS_Store
+Thumbs.db

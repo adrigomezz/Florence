@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Contenedor principal */
+.statistics-container {
+  @apply w-full px-6 pt-10 pb-20 max-w-screen-xl mx-auto min-h-screen flex flex-col justify-start space-y-10;
+}
+
+/* Encabezado */
+.statistics-title {
+  @apply text-4xl font-extrabold text-primary text-center tracking-tight;
+}
+
+.statistics-subtitle {
+  @apply text-lg text-muted text-center leading-relaxed;
+}
+
+/* Resumen */
+.statistics-summary {
+  @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6;
+}
+
+.summary-card {
+  @apply bg-white p-6 rounded-2xl shadow-lg border border-gray-200 flex flex-col items-center justify-center space-y-2 transition-all hover:shadow-xl;
+}
+
+.summary-icon {
+  @apply text-primary mb-2;
+}
+
+.summary-value {
+  @apply text-3xl font-extrabold text-primary text-center;
+}
+
+.summary-label {
+  @apply text-base text-muted text-center;
+}
+
+/* Exportar PDF */
+.btn-export {
+  @apply bg-green-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-green-700 transition mt-4 flex items-center justify-center space-x-2;
+}
+
+/* Estado de carga */
+.statistics-placeholder {
+  @apply bg-neutral text-dark text-center py-10 rounded-xl border border-dashed border-gray-300 text-lg font-medium;
+}
+
+/* Selector de evolución */
+.evolution-selector {
+  @apply mt-12 mb-4 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between;
+}
+
+.statistics-label {
+  @apply block text-sm font-medium text-gray-700;
+}
+
+.statistics-input {
+  @apply px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary w-full sm:w-1/2;
+}
+
+/* Botón eliminar */
+.btn-delete {
+  @apply bg-red-600 text-white font-semibold py-2 px-4 rounded-lg hover:bg-red-700 transition w-full sm:w-auto;
+}
+
+/* Simulación de IA */
+.ai-box {
+  @apply bg-yellow-50 border border-yellow-200 p-6 rounded-2xl shadow-lg mt-12 flex flex-col items-center justify-center text-center space-y-4;
+}
+
+.ai-title {
+  @apply text-xl font-bold text-yellow-600;
+}
+
+.ai-text {
+  @apply text-gray-700 text-sm max-w-2xl;
+}
+
+ul.ai-text {
+  @apply list-disc text-left ml-6;
+}
+
+/* Animaciones */
+@layer utilities {
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.6s ease-out both;
+  }
+}
