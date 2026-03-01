@@ -69,7 +69,7 @@ npm run dev
 ##cambia al frontend e incialo también
 
 cd florence-frontend
-npm run ev
+npm run dev
 
 Adrián Gómez — Desarrollador Full-Stack
 Proyecto desarrollado con fines profesionales y sociales en el entorno de la salud.
