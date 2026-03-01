@@ -4,40 +4,34 @@
 
 ---
 
-## 🔧 Tecnologías utilizadas
+# Stack Tecnológico 🔧 
 
 - **Frontend**: React.js, Tailwind CSS, jsPDF, Lucide Icons
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose
 - **Otros**: dotenv, cors, jspdf-autotable
 
----
+# Funcionalidades principales ✨
 
-## ✨ Funcionalidades principales
-
-### 👩‍⚕️ Pacientes
+# Pacientes 👩‍⚕️
 - Registro de pacientes con nombre, edad, género, contacto y observaciones.
 - Consulta de pacientes en tabla con edición y eliminación.
 - Exportación de fichas en PDF.
 
-### 📋 Evoluciones clínicas
+# Evoluciones clínicas 📋
 - Registro de notas clínicas, constantes vitales (temperatura, pulso, tensión) e intervenciones.
 - Asociación automática con fecha y paciente correspondiente.
 - Edición y eliminación de evoluciones.
 
-### 📊 Estadísticas
+# Estadísticas 📊
 - Resumen de número de evoluciones y pacientes únicos.
 - Selección de evolución y generación de recomendaciones IA (simuladas).
 - Exportación a PDF profesional con datos completos del paciente, evolución y recomendaciones.
 
----
-
-## 🧠 IA Clínica (simulada)
+# IA Clínica (simulada) 🧠
 
 Al seleccionar una evolución, el sistema genera recomendaciones automáticas en base a constantes vitales y notas clínicas. No se conecta a servicios externos por privacidad y eficiencia, pero ofrece una lógica simulada orientada a casos reales.
 
----
-
-## 📤 Exportación a PDF
+# Exportación a PDF 📤
 
 - Fichas individuales de pacientes.
 - Informe clínico completo de evoluciones, incluyendo:
@@ -47,9 +41,7 @@ Al seleccionar una evolución, el sistema genera recomendaciones automáticas en
   - Constantes vitales
   - Recomendaciones IA
 
----
-
-## 🔐 Variables de entorno (archivo `.env`)
+# Variables de entorno (archivo `.env`) 🔐
 
 Crea un archivo `.env` con el siguiente contenido:
 
