@@ -44,7 +44,7 @@
   - Recomendaciones IA
 <br/>
 
-# Capturas nativas de la aplicación
+# Capturas nativas de la aplicación 🖼️
 
 <img width="278" height="621" alt="Captura 1 Florence" src="https://github.com/user-attachments/assets/32379237-073c-4b8f-8928-1d0bdeac9081" />
 <img width="278" height="621" alt="Captura 2 Florence" src="https://github.com/user-attachments/assets/77c59b2f-df58-419a-9bd7-2de848ac5e47" />
